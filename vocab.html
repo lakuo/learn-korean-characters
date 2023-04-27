@@ -136,35 +136,6 @@
         }
       }
 
-      .search-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 300px;
-        margin-bottom: 20px;
-      }
-
-      #searchInput {
-        flex-grow: 1;
-        height: 30px;
-        padding: 5px;
-        border: 1px solid #ccc;
-        border-radius: 5px 0 0 5px;
-        font-size: 14px;
-        outline: none;
-        margin-right: 5px;
-      }
-
-      #searchBtn {
-        height: 30px;
-        padding: 5px;
-        width: 100px;
-        border-radius: 0 5px 5px 0;
-      }
-
-      #searchBtn:hover {
-        transform: scale(1.05);
-      }
       .made-by {
         position: absolute;
         bottom: 0;
@@ -244,12 +215,6 @@
         </div>
         <div id="favoritesList"></div>
         <a href="index.html">Go back to Character Flashcards</a>
-        <div class="search-container">
-          <input type="text" id="searchInput" placeholder="Search character" />
-          <div class="card" id="searchBtn" onclick="searchCharacter()">
-            Search
-          </div>
-        </div>
         <div class="card" onclick="toggleFlashcard()">
           <div class="character-count" id="characterCount"></div>
           <div class="favorite-star" onclick="toggleFavorite(event)">★</div>
@@ -366,10 +331,7 @@
       }
 
       function handleKeyDown(event) {
-        if (event.target.id === "searchInput" && event.key === "Enter") {
-          event.preventDefault();
-          searchCharacter();
-        } else if (event.key === "ArrowRight") {
+        if (event.key === "ArrowRight") {
           nextItem();
         } else if (event.key === "ArrowLeft") {
           previousItem();
@@ -383,29 +345,6 @@
           event.preventDefault();
           toggleFavoritesList();
         }
-      }
-
-      function searchCharacter() {
-        const searchInput = document.getElementById("searchInput");
-        const searchTerm = searchInput.value.trim();
-        if (searchTerm.length === 1) {
-          const index = vocabList.findIndex(
-            (char) => char.vocab === searchTerm
-          );
-          if (index !== -1) {
-            if (currentIndex !== -1) {
-              previousItems.push(currentIndex);
-            }
-            currentIndex = index;
-            displayCharacter(currentIndex);
-            resetFlashcard();
-          } else {
-            alert("Character not found.");
-          }
-        } else {
-          alert("Please input a single character.");
-        }
-        searchInput.value = "";
       }
 
       function updatePrevBtnVisibility() {
