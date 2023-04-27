@@ -309,6 +309,11 @@
         spinner.style.display = "block";
       }
 
+      function hideSpinner() {
+        const spinner = document.getElementById("spinner");
+        spinner.style.display = "none";
+      }
+
       function nextItem() {
         let randomIndex = Math.floor(Math.random() * vocabList.length);
         while (randomIndex === currentIndex) {
