@@ -229,6 +229,11 @@
         font-size: 1.2em;
         font-weight: bold;
       }
+      .meaning {
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: 10px;
+      }
     </style>
   </head>
   <body>
@@ -238,7 +243,7 @@
           Favorites
         </div>
         <div id="favoritesList"></div>
-        <a href="vocab.html">Go to Vocabulary Flashcards</a>
+        <a href="index.html">Go back to Character Flashcards</a>
         <div class="search-container">
           <input type="text" id="searchInput" placeholder="Search character" />
           <div class="card" id="searchBtn" onclick="searchCharacter()">
@@ -249,13 +254,12 @@
           <div class="character-count" id="characterCount"></div>
           <div class="favorite-star" onclick="toggleFavorite(event)">★</div>
           <div class="character"></div>
+          <div class="meaning"></div>
           <div class="pronunciation"></div>
         </div>
         <div class="buttons-container">
-          <div class="card" id="prevBtn" onclick="previousCharacter()">
-            &#8592;
-          </div>
-          <div class="card" id="nextBtn" onclick="nextCharacter()">&#8594;</div>
+          <div class="card" id="prevBtn" onclick="previousItem()">&#8592;</div>
+          <div class="card" id="nextBtn" onclick="nextItem()">&#8594;</div>
         </div>
         <div class="made-by">Made by Laurence :)</div>
       </div>
@@ -266,33 +270,38 @@
     </div>
     <script>
       let flashcardState = 0;
-      let characters = [];
+      let vocabList = [];
       let currentIndex = -1;
-      let previousCharacters = [];
+      let previousItems = [];
 
-      async function fetchCharacters() {
-        const response = await fetch("korean_characters.json");
-        characters = await response.json();
-        nextCharacter();
+      async function fetchVocab() {
+        const response = await fetch("vocabs.json");
+        vocabList = await response.json();
+        console.log(vocabList);
+        nextItem();
       }
-      async function displayCharacter(index) {
-        const character = document.querySelector(".character");
-        const pronunciation = document.querySelector(".pronunciation");
-        const dictionaryFrame = document.querySelector("#dictionaryFrame");
 
-        character.textContent = characters[index].character;
-        pronunciation.textContent = characters[index].pronunciation;
+      async function displayItem(index) {
+        const character = document.querySelector(".card .character");
+        const meaning = document.querySelector(".meaning");
+        const pronunciation = document.querySelector(".card .pronunciation");
+
+        character.textContent = vocabList[index].vocab;
+        meaning.textContent = vocabList[index].meaning;
+        pronunciation.textContent = vocabList[index].pronunciation;
 
         const url = `https://krdict.korean.go.kr/m/eng/searchResult?preKeyword=${encodeURIComponent(
-          characters[index].character
+          vocabList[index].vocab
         )}&mainSearchWord=${encodeURIComponent(
-          characters[index].character
+          vocabList[index].vocab
         )}&nationCode=6&nation=eng&divSearch=search&pageNo=1&displayNum=10`;
 
+        console.log(url);
         showSpinner();
         dictionaryFrame.src = url;
         updateFavoriteStar();
         incrementCharacterCount();
+        resetFlashcard();
       }
 
       function showSpinner() {
@@ -300,29 +309,24 @@
         spinner.style.display = "block";
       }
 
-      function hideSpinner() {
-        const spinner = document.getElementById("spinner");
-        spinner.style.display = "none";
-      }
-
-      function nextCharacter() {
-        let randomIndex = Math.floor(Math.random() * characters.length);
+      function nextItem() {
+        let randomIndex = Math.floor(Math.random() * vocabList.length);
         while (randomIndex === currentIndex) {
-          randomIndex = Math.floor(Math.random() * characters.length);
+          randomIndex = Math.floor(Math.random() * vocabList.length);
         }
         if (currentIndex !== -1) {
-          previousCharacters.push(currentIndex);
+          previousItems.push(currentIndex);
         }
         currentIndex = randomIndex;
-        displayCharacter(currentIndex);
+        displayItem(currentIndex);
         resetFlashcard();
         updatePrevBtnVisibility();
       }
 
-      function previousCharacter() {
-        if (previousCharacters.length > 0) {
-          currentIndex = previousCharacters.pop();
-          displayCharacter(currentIndex);
+      function previousItem() {
+        if (previousItems.length > 0) {
+          currentIndex = previousItems.pop();
+          displayItem(currentIndex);
           resetFlashcard();
         }
         updatePrevBtnVisibility();
@@ -331,56 +335,29 @@
       function resetFlashcard() {
         flashcardState = 0;
         const character = document.querySelector(".character");
+        const meaning = document.querySelector(".meaning");
         const pronunciation = document.querySelector(".pronunciation");
         character.style.display = "block";
+        meaning.style.display = "block";
         pronunciation.style.display = "none";
       }
 
       function toggleFlashcard() {
-        const character = document.querySelector(".character");
-        const pronunciation = document.querySelector(".pronunciation");
+        const character = document.querySelector(".card .character");
+        const meaning = document.querySelector(".card .meaning");
+        const pronunciation = document.querySelector(".card .pronunciation");
 
         if (flashcardState === 0) {
           character.style.display = "none";
+          meaning.style.display = "none";
           pronunciation.style.display = "block";
           flashcardState = 1;
         } else {
           character.style.display = "block";
+          meaning.style.display = "block";
           pronunciation.style.display = "none";
           flashcardState = 0;
         }
-      }
-
-      function updatePrevBtnVisibility() {
-        const prevBtn = document.getElementById("prevBtn");
-        if (previousCharacters.length === 0) {
-          prevBtn.style.display = "none";
-        } else {
-          prevBtn.style.display = "flex";
-        }
-      }
-
-      function searchCharacter() {
-        const searchInput = document.getElementById("searchInput");
-        const searchTerm = searchInput.value.trim();
-        if (searchTerm.length === 1) {
-          const index = characters.findIndex(
-            (char) => char.character === searchTerm
-          );
-          if (index !== -1) {
-            if (currentIndex !== -1) {
-              previousCharacters.push(currentIndex);
-            }
-            currentIndex = index;
-            displayCharacter(currentIndex);
-            resetFlashcard();
-          } else {
-            alert("Character not found.");
-          }
-        } else {
-          alert("Please input a single character.");
-        }
-        searchInput.value = "";
       }
 
       function handleKeyDown(event) {
@@ -388,9 +365,9 @@
           event.preventDefault();
           searchCharacter();
         } else if (event.key === "ArrowRight") {
-          nextCharacter();
+          nextItem();
         } else if (event.key === "ArrowLeft") {
-          previousCharacter();
+          previousItem();
         } else if (event.key === " ") {
           event.preventDefault();
           toggleFlashcard();
@@ -403,15 +380,24 @@
         }
       }
 
+      function updatePrevBtnVisibility() {
+        const prevBtn = document.getElementById("prevBtn");
+        if (previousItems.length === 0) {
+          prevBtn.style.display = "none";
+        } else {
+          prevBtn.style.display = "flex";
+        }
+      }
+
       function toggleFavorite(event) {
         event.stopPropagation();
-        const characterKey = "fav_" + characters[currentIndex].character;
+        const characterKey = "fav_" + vocabList[currentIndex].vocab;
         if (localStorage.getItem(characterKey)) {
           localStorage.removeItem(characterKey);
         } else {
           localStorage.setItem(
             characterKey,
-            JSON.stringify(characters[currentIndex])
+            JSON.stringify(vocabList[currentIndex])
           );
         }
         updateFavoriteStar();
@@ -419,7 +405,7 @@
 
       function updateFavoriteStar() {
         const favoriteStar = document.querySelector(".favorite-star");
-        const characterKey = "fav_" + characters[currentIndex].character;
+        const characterKey = "fav_" + vocabList[currentIndex].vocab;
         if (localStorage.getItem(characterKey)) {
           favoriteStar.style.color = "yellow";
         } else {
@@ -446,9 +432,9 @@
           if (key.startsWith("fav_")) {
             const fav = JSON.parse(localStorage.getItem(key));
             const li = document.createElement("li");
-            li.textContent = fav.character;
+            li.textContent = fav.vocab;
             li.addEventListener("click", () => {
-              loadFavoriteCharacter(fav.character);
+              loadFavoriteCharacter(fav.vocab);
             });
 
             const removeBtn = document.createElement("span");
@@ -457,7 +443,7 @@
             removeBtn.style.marginLeft = "10px";
             removeBtn.addEventListener("click", (event) => {
               event.stopPropagation();
-              localStorage.removeItem("fav_" + fav.character);
+              localStorage.removeItem("fav_" + fav.vocab);
               updateFavoritesList();
             });
 
@@ -468,15 +454,15 @@
       }
 
       function loadFavoriteCharacter(character) {
-        const charIndex = characters.findIndex(
-          (char) => char.character === character
+        const charIndex = vocabList.findIndex(
+          (char) => char.vocab === character
         );
         if (charIndex !== -1) {
           if (currentIndex !== -1) {
-            previousCharacters.push(currentIndex);
+            previousItems.push(currentIndex);
           }
           currentIndex = charIndex;
-          displayCharacter(currentIndex);
+          displayItem(currentIndex);
           resetFlashcard();
           updateFavoriteStar();
         }
@@ -484,7 +470,7 @@
       }
 
       function incrementCharacterCount() {
-        const characterKey = "count_" + characters[currentIndex].character;
+        const characterKey = "count_" + vocabList[currentIndex].vocab;
         let currentCount = localStorage.getItem(characterKey);
         if (currentCount) {
           currentCount = parseInt(currentCount, 10) + 1;
@@ -496,7 +482,7 @@
       }
 
       function updateCharacterCount() {
-        const characterKey = "count_" + characters[currentIndex].character;
+        const characterKey = "count_" + vocabList[currentIndex].vocab;
         const countElement = document.getElementById("characterCount");
         const currentCount = localStorage.getItem(characterKey);
         if (currentCount) {
@@ -506,13 +492,11 @@
         }
       }
 
-      fetchCharacters().then(() => {
+      fetchVocab().then(() => {
         updatePrevBtnVisibility();
       });
+
       window.addEventListener("keydown", handleKeyDown);
-      li.addEventListener("click", () => {
-        loadFavoriteCharacter(fav.character);
-      });
     </script>
   </body>
 </html>
