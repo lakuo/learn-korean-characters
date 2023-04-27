@@ -389,12 +389,12 @@
         const searchInput = document.getElementById("searchInput");
         const searchTerm = searchInput.value.trim();
         if (searchTerm.length === 1) {
-          const index = characters.findIndex(
-            (char) => char.character === searchTerm
+          const index = vocabList.findIndex(
+            (char) => char.vocab === searchTerm
           );
           if (index !== -1) {
             if (currentIndex !== -1) {
-              previousCharacters.push(currentIndex);
+              previousItems.push(currentIndex);
             }
             currentIndex = index;
             displayCharacter(currentIndex);
