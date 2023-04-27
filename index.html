@@ -27,6 +27,7 @@
       }
 
       .card {
+        position: relative;
         background-color: white;
         padding: 40px;
         width: 300px;
@@ -73,8 +74,8 @@
       #nextBtn {
         margin-right: 20px;
         background-color: white;
-        padding: 20px;
-        width: 100px;
+        padding: 5px 20px;
+        width: auto;
         height: 30px;
         border-radius: 5px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -84,6 +85,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        font-size: 1.5em;
       }
 
       #prevBtn:hover,
@@ -166,11 +168,63 @@
         color: black;
         padding-bottom: 5px;
       }
+
+      .favorite-star {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 24px;
+        cursor: pointer;
+        user-select: none;
+        z-index: 1;
+        color: transparent;
+        text-shadow: 0 0 2px #000;
+      }
+
+      /* Menu button and popup */
+      #menuBtn {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        height: 30px;
+        padding: 5px;
+        width: 80px;
+        z-index: 2;
+      }
+
+      #favoritesList {
+        display: none;
+        position: absolute;
+        top: 50px;
+        left: 10px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        z-index: 1;
+        max-height: 200px;
+        overflow-y: auto;
+      }
+
+      #favoritesList li {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      #favoritesList li:hover {
+        background-color: #f5f5f5;
+      }
     </style>
   </head>
   <body>
     <div class="container">
       <div class="left-half">
+        <div class="card" id="menuBtn" onclick="toggleFavoritesList()">
+          Favorites
+        </div>
+        <div id="favoritesList"></div>
         <div class="search-container">
           <input type="text" id="searchInput" placeholder="Search character" />
           <div class="card" id="searchBtn" onclick="searchCharacter()">
@@ -178,14 +232,15 @@
           </div>
         </div>
         <div class="card" onclick="toggleFlashcard()">
+          <div class="favorite-star" onclick="toggleFavorite(event)">★</div>
           <div class="character"></div>
           <div class="pronunciation"></div>
         </div>
         <div class="buttons-container">
           <div class="card" id="prevBtn" onclick="previousCharacter()">
-            Back
+            &#8592;
           </div>
-          <div class="card" id="nextBtn" onclick="nextCharacter()">Next</div>
+          <div class="card" id="nextBtn" onclick="nextCharacter()">&#8594;</div>
         </div>
         <div class="made-by">Made by Laurence :)</div>
       </div>
@@ -221,6 +276,7 @@
 
         showSpinner();
         dictionaryFrame.src = url;
+        updateFavoriteStar();
       }
 
       function showSpinner() {
@@ -244,6 +300,7 @@
         currentIndex = randomIndex;
         displayCharacter(currentIndex);
         resetFlashcard();
+        updatePrevBtnVisibility();
       }
 
       function previousCharacter() {
@@ -252,6 +309,7 @@
           displayCharacter(currentIndex);
           resetFlashcard();
         }
+        updatePrevBtnVisibility();
       }
 
       function resetFlashcard() {
@@ -274,6 +332,15 @@
           character.style.display = "block";
           pronunciation.style.display = "none";
           flashcardState = 0;
+        }
+      }
+
+      function updatePrevBtnVisibility() {
+        const prevBtn = document.getElementById("prevBtn");
+        if (previousCharacters.length === 0) {
+          prevBtn.style.display = "none";
+        } else {
+          prevBtn.style.display = "flex";
         }
       }
 
@@ -300,7 +367,113 @@
         searchInput.value = "";
       }
 
-      fetchCharacters();
+      function handleKeyDown(event) {
+        if (event.target.id === "searchInput" && event.key === "Enter") {
+          event.preventDefault();
+          searchCharacter();
+        } else if (event.key === "ArrowRight") {
+          nextCharacter();
+        } else if (event.key === "ArrowLeft") {
+          previousCharacter();
+        } else if (event.key === " ") {
+          event.preventDefault();
+          toggleFlashcard();
+        } else if (event.key === "s") {
+          event.preventDefault();
+          toggleFavorite(event);
+        } else if (event.key === "m") {
+          event.preventDefault();
+          toggleFavoritesList();
+        }
+      }
+
+      function toggleFavorite(event) {
+        event.stopPropagation();
+        const characterKey = "fav_" + characters[currentIndex].character;
+        if (localStorage.getItem(characterKey)) {
+          localStorage.removeItem(characterKey);
+        } else {
+          localStorage.setItem(
+            characterKey,
+            JSON.stringify(characters[currentIndex])
+          );
+        }
+        updateFavoriteStar();
+      }
+
+      function updateFavoriteStar() {
+        const favoriteStar = document.querySelector(".favorite-star");
+        const characterKey = "fav_" + characters[currentIndex].character;
+        if (localStorage.getItem(characterKey)) {
+          favoriteStar.style.color = "yellow";
+        } else {
+          favoriteStar.style.color = "black";
+        }
+      }
+
+      function toggleFavoritesList() {
+        const favoritesList = document.getElementById("favoritesList");
+        if (favoritesList.style.display === "none") {
+          favoritesList.style.display = "block";
+          updateFavoritesList();
+        } else {
+          favoritesList.style.display = "none";
+        }
+      }
+
+      function updateFavoritesList() {
+        const favoritesList = document.getElementById("favoritesList");
+        favoritesList.innerHTML = "";
+
+        for (let i = 0; i < localStorage.length; i++) {
+          const key = localStorage.key(i);
+          if (key.startsWith("fav_")) {
+            const fav = JSON.parse(localStorage.getItem(key));
+            const li = document.createElement("li");
+            li.textContent = fav.character;
+            li.addEventListener("click", () => {
+              loadFavoriteCharacter(fav.character);
+            });
+
+            const removeBtn = document.createElement("span");
+            removeBtn.textContent = "x";
+            removeBtn.style.cursor = "pointer";
+            removeBtn.style.marginLeft = "10px";
+            removeBtn.addEventListener("click", (event) => {
+              event.stopPropagation();
+              localStorage.removeItem("fav_" + fav.character);
+              updateFavoritesList();
+            });
+
+            li.appendChild(removeBtn);
+            favoritesList.appendChild(li);
+          }
+        }
+      }
+
+      function loadFavoriteCharacter(character) {
+        const charIndex = characters.findIndex(
+          (char) => char.character === character
+        );
+        if (charIndex !== -1) {
+          if (currentIndex !== -1) {
+            previousCharacters.push(currentIndex);
+          }
+          currentIndex = charIndex;
+          displayCharacter(currentIndex);
+          resetFlashcard();
+          updateFavoriteStar();
+        }
+        toggleFavoritesList();
+      }
+
+      fetchCharacters().then(() => {
+        updatePrevBtnVisibility();
+      });
+      window.addEventListener("keydown", handleKeyDown);
+      li.addEventListener("click", () => {
+        loadFavoriteCharacter(fav.character);
+      });
     </script>
   </body>
 </html>
