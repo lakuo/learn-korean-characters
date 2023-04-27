@@ -1,0 +1,3914 @@
+[
+  {
+    "character": "가",
+    "pronunciation": "ga"
+  },
+  {
+    "character": "각",
+    "pronunciation": "gak"
+  },
+  {
+    "character": "간",
+    "pronunciation": "gan"
+  },
+  {
+    "character": "갇",
+    "pronunciation": "gat"
+  },
+  {
+    "character": "갈",
+    "pronunciation": "gal"
+  },
+  {
+    "character": "감",
+    "pronunciation": "gam"
+  },
+  {
+    "character": "갑",
+    "pronunciation": "gap"
+  },
+  {
+    "character": "값",
+    "pronunciation": "gabs"
+  },
+  {
+    "character": "갓",
+    "pronunciation": "gas"
+  },
+  {
+    "character": "강",
+    "pronunciation": "gang"
+  },
+  {
+    "character": "갖",
+    "pronunciation": "gat"
+  },
+  {
+    "character": "같",
+    "pronunciation": "gat"
+  },
+  {
+    "character": "갚",
+    "pronunciation": "gap"
+  },
+  {
+    "character": "갛",
+    "pronunciation": "gah"
+  },
+  {
+    "character": "개",
+    "pronunciation": "gae"
+  },
+  {
+    "character": "객",
+    "pronunciation": "gaek"
+  },
+  {
+    "character": "걀",
+    "pronunciation": "gyal"
+  },
+  {
+    "character": "걔",
+    "pronunciation": "gyae"
+  },
+  {
+    "character": "거",
+    "pronunciation": "geo"
+  },
+  {
+    "character": "걱",
+    "pronunciation": "geok"
+  },
+  {
+    "character": "건",
+    "pronunciation": "geon"
+  },
+  {
+    "character": "걷",
+    "pronunciation": "geot"
+  },
+  {
+    "character": "걸",
+    "pronunciation": "geol"
+  },
+  {
+    "character": "검",
+    "pronunciation": "geom"
+  },
+  {
+    "character": "겁",
+    "pronunciation": "geop"
+  },
+  {
+    "character": "것",
+    "pronunciation": "geos"
+  },
+  {
+    "character": "겉",
+    "pronunciation": "geot"
+  },
+  {
+    "character": "게",
+    "pronunciation": "ge"
+  },
+  {
+    "character": "겨",
+    "pronunciation": "gyeo"
+  },
+  {
+    "character": "격",
+    "pronunciation": "gyeok"
+  },
+  {
+    "character": "겪",
+    "pronunciation": "gyeok"
+  },
+  {
+    "character": "견",
+    "pronunciation": "gyeon"
+  },
+  {
+    "character": "결",
+    "pronunciation": "gyeol"
+  },
+  {
+    "character": "겹",
+    "pronunciation": "gyeop"
+  },
+  {
+    "character": "경",
+    "pronunciation": "gyeong"
+  },
+  {
+    "character": "곁",
+    "pronunciation": "gyeot"
+  },
+  {
+    "character": "계",
+    "pronunciation": "gye"
+  },
+  {
+    "character": "고",
+    "pronunciation": "go"
+  },
+  {
+    "character": "곡",
+    "pronunciation": "gok"
+  },
+  {
+    "character": "곤",
+    "pronunciation": "gon"
+  },
+  {
+    "character": "곧",
+    "pronunciation": "got"
+  },
+  {
+    "character": "골",
+    "pronunciation": "gol"
+  },
+  {
+    "character": "곰",
+    "pronunciation": "gom"
+  },
+  {
+    "character": "곱",
+    "pronunciation": "gop"
+  },
+  {
+    "character": "곳",
+    "pronunciation": "gos"
+  },
+  {
+    "character": "공",
+    "pronunciation": "gong"
+  },
+  {
+    "character": "과",
+    "pronunciation": "gwa"
+  },
+  {
+    "character": "관",
+    "pronunciation": "gwan"
+  },
+  {
+    "character": "광",
+    "pronunciation": "gwang"
+  },
+  {
+    "character": "괜",
+    "pronunciation": "gwaen"
+  },
+  {
+    "character": "괴",
+    "pronunciation": "goe"
+  },
+  {
+    "character": "굉",
+    "pronunciation": "goeng"
+  },
+  {
+    "character": "교",
+    "pronunciation": "gyo"
+  },
+  {
+    "character": "구",
+    "pronunciation": "gu"
+  },
+  {
+    "character": "국",
+    "pronunciation": "guk"
+  },
+  {
+    "character": "군",
+    "pronunciation": "gun"
+  },
+  {
+    "character": "굳",
+    "pronunciation": "gut"
+  },
+  {
+    "character": "굴",
+    "pronunciation": "gul"
+  },
+  {
+    "character": "굵",
+    "pronunciation": "gulk"
+  },
+  {
+    "character": "굶",
+    "pronunciation": "gulm"
+  },
+  {
+    "character": "굽",
+    "pronunciation": "gup"
+  },
+  {
+    "character": "궁",
+    "pronunciation": "gung"
+  },
+  {
+    "character": "권",
+    "pronunciation": "gwon"
+  },
+  {
+    "character": "귀",
+    "pronunciation": "gwi"
+  },
+  {
+    "character": "귓",
+    "pronunciation": "gwis"
+  },
+  {
+    "character": "규",
+    "pronunciation": "gyu"
+  },
+  {
+    "character": "균",
+    "pronunciation": "gyun"
+  },
+  {
+    "character": "귤",
+    "pronunciation": "gyul"
+  },
+  {
+    "character": "그",
+    "pronunciation": "geu"
+  },
+  {
+    "character": "극",
+    "pronunciation": "geuk"
+  },
+  {
+    "character": "근",
+    "pronunciation": "geun"
+  },
+  {
+    "character": "글",
+    "pronunciation": "geul"
+  },
+  {
+    "character": "긁",
+    "pronunciation": "geulk"
+  },
+  {
+    "character": "금",
+    "pronunciation": "geum"
+  },
+  {
+    "character": "급",
+    "pronunciation": "geup"
+  },
+  {
+    "character": "긋",
+    "pronunciation": "geus"
+  },
+  {
+    "character": "긍",
+    "pronunciation": "geung"
+  },
+  {
+    "character": "기",
+    "pronunciation": "gi"
+  },
+  {
+    "character": "긴",
+    "pronunciation": "gin"
+  },
+  {
+    "character": "길",
+    "pronunciation": "gil"
+  },
+  {
+    "character": "김",
+    "pronunciation": "gim"
+  },
+  {
+    "character": "깅",
+    "pronunciation": "ging"
+  },
+  {
+    "character": "깊",
+    "pronunciation": "gip"
+  },
+  {
+    "character": "까",
+    "pronunciation": "kka"
+  },
+  {
+    "character": "깍",
+    "pronunciation": "kkak"
+  },
+  {
+    "character": "깎",
+    "pronunciation": "kkak"
+  },
+  {
+    "character": "깐",
+    "pronunciation": "kkan"
+  },
+  {
+    "character": "깔",
+    "pronunciation": "kkal"
+  },
+  {
+    "character": "깜",
+    "pronunciation": "kkam"
+  },
+  {
+    "character": "깝",
+    "pronunciation": "kkap"
+  },
+  {
+    "character": "깡",
+    "pronunciation": "kkang"
+  },
+  {
+    "character": "깥",
+    "pronunciation": "kkat"
+  },
+  {
+    "character": "깨",
+    "pronunciation": "kkae"
+  },
+  {
+    "character": "꺼",
+    "pronunciation": "kkeo"
+  },
+  {
+    "character": "꺾",
+    "pronunciation": "kkeok"
+  },
+  {
+    "character": "껌",
+    "pronunciation": "kkeom"
+  },
+  {
+    "character": "껍",
+    "pronunciation": "kkeop"
+  },
+  {
+    "character": "껏",
+    "pronunciation": "kkeos"
+  },
+  {
+    "character": "껑",
+    "pronunciation": "kkeong"
+  },
+  {
+    "character": "께",
+    "pronunciation": "kke"
+  },
+  {
+    "character": "껴",
+    "pronunciation": "kkyeo"
+  },
+  {
+    "character": "꼬",
+    "pronunciation": "kko"
+  },
+  {
+    "character": "꼭",
+    "pronunciation": "kkok"
+  },
+  {
+    "character": "꼴",
+    "pronunciation": "kkol"
+  },
+  {
+    "character": "꼼",
+    "pronunciation": "kkom"
+  },
+  {
+    "character": "꼽",
+    "pronunciation": "kkop"
+  },
+  {
+    "character": "꽂",
+    "pronunciation": "kkot"
+  },
+  {
+    "character": "꽃",
+    "pronunciation": "kkot"
+  },
+  {
+    "character": "꽉",
+    "pronunciation": "kkwak"
+  },
+  {
+    "character": "꽤",
+    "pronunciation": "kkwae"
+  },
+  {
+    "character": "꾸",
+    "pronunciation": "kku"
+  },
+  {
+    "character": "꾼",
+    "pronunciation": "kkun"
+  },
+  {
+    "character": "꿀",
+    "pronunciation": "kkul"
+  },
+  {
+    "character": "꿈",
+    "pronunciation": "kkum"
+  },
+  {
+    "character": "뀌",
+    "pronunciation": "kkwi"
+  },
+  {
+    "character": "끄",
+    "pronunciation": "kkeu"
+  },
+  {
+    "character": "끈",
+    "pronunciation": "kkeun"
+  },
+  {
+    "character": "끊",
+    "pronunciation": "kkeunh"
+  },
+  {
+    "character": "끌",
+    "pronunciation": "kkeul"
+  },
+  {
+    "character": "끓",
+    "pronunciation": "kkeulh"
+  },
+  {
+    "character": "끔",
+    "pronunciation": "kkeum"
+  },
+  {
+    "character": "끗",
+    "pronunciation": "kkeus"
+  },
+  {
+    "character": "끝",
+    "pronunciation": "kkeut"
+  },
+  {
+    "character": "끼",
+    "pronunciation": "kki"
+  },
+  {
+    "character": "낌",
+    "pronunciation": "kkim"
+  },
+  {
+    "character": "나",
+    "pronunciation": "na"
+  },
+  {
+    "character": "낙",
+    "pronunciation": "nak"
+  },
+  {
+    "character": "낚",
+    "pronunciation": "nak"
+  },
+  {
+    "character": "난",
+    "pronunciation": "nan"
+  },
+  {
+    "character": "날",
+    "pronunciation": "nal"
+  },
+  {
+    "character": "낡",
+    "pronunciation": "nalk"
+  },
+  {
+    "character": "남",
+    "pronunciation": "nam"
+  },
+  {
+    "character": "납",
+    "pronunciation": "nap"
+  },
+  {
+    "character": "낫",
+    "pronunciation": "nas"
+  },
+  {
+    "character": "낭",
+    "pronunciation": "nang"
+  },
+  {
+    "character": "낮",
+    "pronunciation": "nat"
+  },
+  {
+    "character": "낯",
+    "pronunciation": "nat"
+  },
+  {
+    "character": "낱",
+    "pronunciation": "nat"
+  },
+  {
+    "character": "낳",
+    "pronunciation": "nah"
+  },
+  {
+    "character": "내",
+    "pronunciation": "nae"
+  },
+  {
+    "character": "낼",
+    "pronunciation": "nael"
+  },
+  {
+    "character": "냄",
+    "pronunciation": "naem"
+  },
+  {
+    "character": "냇",
+    "pronunciation": "naes"
+  },
+  {
+    "character": "냉",
+    "pronunciation": "naeng"
+  },
+  {
+    "character": "냐",
+    "pronunciation": "nya"
+  },
+  {
+    "character": "냥",
+    "pronunciation": "nyang"
+  },
+  {
+    "character": "너",
+    "pronunciation": "neo"
+  },
+  {
+    "character": "넉",
+    "pronunciation": "neok"
+  },
+  {
+    "character": "넌",
+    "pronunciation": "neon"
+  },
+  {
+    "character": "널",
+    "pronunciation": "neol"
+  },
+  {
+    "character": "넓",
+    "pronunciation": "neolb"
+  },
+  {
+    "character": "넘",
+    "pronunciation": "neom"
+  },
+  {
+    "character": "넣",
+    "pronunciation": "neoh"
+  },
+  {
+    "character": "네",
+    "pronunciation": "ne"
+  },
+  {
+    "character": "넥",
+    "pronunciation": "nek"
+  },
+  {
+    "character": "넷",
+    "pronunciation": "nes"
+  },
+  {
+    "character": "녀",
+    "pronunciation": "nyeo"
+  },
+  {
+    "character": "녁",
+    "pronunciation": "nyeok"
+  },
+  {
+    "character": "년",
+    "pronunciation": "nyeon"
+  },
+  {
+    "character": "념",
+    "pronunciation": "nyeom"
+  },
+  {
+    "character": "녕",
+    "pronunciation": "nyeong"
+  },
+  {
+    "character": "노",
+    "pronunciation": "no"
+  },
+  {
+    "character": "녹",
+    "pronunciation": "nok"
+  },
+  {
+    "character": "논",
+    "pronunciation": "non"
+  },
+  {
+    "character": "놀",
+    "pronunciation": "nol"
+  },
+  {
+    "character": "놈",
+    "pronunciation": "nom"
+  },
+  {
+    "character": "농",
+    "pronunciation": "nong"
+  },
+  {
+    "character": "높",
+    "pronunciation": "nop"
+  },
+  {
+    "character": "놓",
+    "pronunciation": "noh"
+  },
+  {
+    "character": "놔",
+    "pronunciation": "nwa"
+  },
+  {
+    "character": "뇌",
+    "pronunciation": "noe"
+  },
+  {
+    "character": "뇨",
+    "pronunciation": "nyo"
+  },
+  {
+    "character": "누",
+    "pronunciation": "nu"
+  },
+  {
+    "character": "눈",
+    "pronunciation": "nun"
+  },
+  {
+    "character": "눕",
+    "pronunciation": "nup"
+  },
+  {
+    "character": "뉘",
+    "pronunciation": "nwi"
+  },
+  {
+    "character": "뉴",
+    "pronunciation": "nyu"
+  },
+  {
+    "character": "늄",
+    "pronunciation": "nyum"
+  },
+  {
+    "character": "느",
+    "pronunciation": "neu"
+  },
+  {
+    "character": "늑",
+    "pronunciation": "neuk"
+  },
+  {
+    "character": "는",
+    "pronunciation": "neun"
+  },
+  {
+    "character": "늘",
+    "pronunciation": "neul"
+  },
+  {
+    "character": "늙",
+    "pronunciation": "neulk"
+  },
+  {
+    "character": "능",
+    "pronunciation": "neung"
+  },
+  {
+    "character": "늦",
+    "pronunciation": "neut"
+  },
+  {
+    "character": "늬",
+    "pronunciation": "nui"
+  },
+  {
+    "character": "니",
+    "pronunciation": "ni"
+  },
+  {
+    "character": "닐",
+    "pronunciation": "nil"
+  },
+  {
+    "character": "님",
+    "pronunciation": "nim"
+  },
+  {
+    "character": "다",
+    "pronunciation": "da"
+  },
+  {
+    "character": "닥",
+    "pronunciation": "dak"
+  },
+  {
+    "character": "닦",
+    "pronunciation": "dak"
+  },
+  {
+    "character": "단",
+    "pronunciation": "dan"
+  },
+  {
+    "character": "닫",
+    "pronunciation": "dat"
+  },
+  {
+    "character": "달",
+    "pronunciation": "dal"
+  },
+  {
+    "character": "닭",
+    "pronunciation": "dalk"
+  },
+  {
+    "character": "닮",
+    "pronunciation": "dalm"
+  },
+  {
+    "character": "담",
+    "pronunciation": "dam"
+  },
+  {
+    "character": "답",
+    "pronunciation": "dap"
+  },
+  {
+    "character": "닷",
+    "pronunciation": "das"
+  },
+  {
+    "character": "당",
+    "pronunciation": "dang"
+  },
+  {
+    "character": "닿",
+    "pronunciation": "dah"
+  },
+  {
+    "character": "대",
+    "pronunciation": "dae"
+  },
+  {
+    "character": "댁",
+    "pronunciation": "daek"
+  },
+  {
+    "character": "댐",
+    "pronunciation": "daem"
+  },
+  {
+    "character": "댓",
+    "pronunciation": "daes"
+  },
+  {
+    "character": "더",
+    "pronunciation": "deo"
+  },
+  {
+    "character": "덕",
+    "pronunciation": "deok"
+  },
+  {
+    "character": "던",
+    "pronunciation": "deon"
+  },
+  {
+    "character": "덜",
+    "pronunciation": "deol"
+  },
+  {
+    "character": "덟",
+    "pronunciation": "deolb"
+  },
+  {
+    "character": "덤",
+    "pronunciation": "deom"
+  },
+  {
+    "character": "덥",
+    "pronunciation": "deop"
+  },
+  {
+    "character": "덧",
+    "pronunciation": "deos"
+  },
+  {
+    "character": "덩",
+    "pronunciation": "deong"
+  },
+  {
+    "character": "덮",
+    "pronunciation": "deop"
+  },
+  {
+    "character": "데",
+    "pronunciation": "de"
+  },
+  {
+    "character": "델",
+    "pronunciation": "del"
+  },
+  {
+    "character": "도",
+    "pronunciation": "do"
+  },
+  {
+    "character": "독",
+    "pronunciation": "dok"
+  },
+  {
+    "character": "돈",
+    "pronunciation": "don"
+  },
+  {
+    "character": "돌",
+    "pronunciation": "dol"
+  },
+  {
+    "character": "돕",
+    "pronunciation": "dop"
+  },
+  {
+    "character": "돗",
+    "pronunciation": "dos"
+  },
+  {
+    "character": "동",
+    "pronunciation": "dong"
+  },
+  {
+    "character": "돼",
+    "pronunciation": "dwae"
+  },
+  {
+    "character": "되",
+    "pronunciation": "doe"
+  },
+  {
+    "character": "된",
+    "pronunciation": "doen"
+  },
+  {
+    "character": "두",
+    "pronunciation": "du"
+  },
+  {
+    "character": "둑",
+    "pronunciation": "duk"
+  },
+  {
+    "character": "둘",
+    "pronunciation": "dul"
+  },
+  {
+    "character": "둠",
+    "pronunciation": "dum"
+  },
+  {
+    "character": "둡",
+    "pronunciation": "dup"
+  },
+  {
+    "character": "둥",
+    "pronunciation": "dung"
+  },
+  {
+    "character": "뒤",
+    "pronunciation": "dwi"
+  },
+  {
+    "character": "뒷",
+    "pronunciation": "dwis"
+  },
+  {
+    "character": "드",
+    "pronunciation": "deu"
+  },
+  {
+    "character": "득",
+    "pronunciation": "deuk"
+  },
+  {
+    "character": "든",
+    "pronunciation": "deun"
+  },
+  {
+    "character": "듣",
+    "pronunciation": "deut"
+  },
+  {
+    "character": "들",
+    "pronunciation": "deul"
+  },
+  {
+    "character": "듬",
+    "pronunciation": "deum"
+  },
+  {
+    "character": "듭",
+    "pronunciation": "deup"
+  },
+  {
+    "character": "듯",
+    "pronunciation": "deus"
+  },
+  {
+    "character": "등",
+    "pronunciation": "deung"
+  },
+  {
+    "character": "디",
+    "pronunciation": "di"
+  },
+  {
+    "character": "딩",
+    "pronunciation": "ding"
+  },
+  {
+    "character": "딪",
+    "pronunciation": "dit"
+  },
+  {
+    "character": "따",
+    "pronunciation": "tta"
+  },
+  {
+    "character": "딱",
+    "pronunciation": "ttak"
+  },
+  {
+    "character": "딴",
+    "pronunciation": "ttan"
+  },
+  {
+    "character": "딸",
+    "pronunciation": "ttal"
+  },
+  {
+    "character": "땀",
+    "pronunciation": "ttam"
+  },
+  {
+    "character": "땅",
+    "pronunciation": "ttang"
+  },
+  {
+    "character": "때",
+    "pronunciation": "ttae"
+  },
+  {
+    "character": "땜",
+    "pronunciation": "ttaem"
+  },
+  {
+    "character": "떠",
+    "pronunciation": "tteo"
+  },
+  {
+    "character": "떡",
+    "pronunciation": "tteok"
+  },
+  {
+    "character": "떤",
+    "pronunciation": "tteon"
+  },
+  {
+    "character": "떨",
+    "pronunciation": "tteol"
+  },
+  {
+    "character": "떻",
+    "pronunciation": "tteoh"
+  },
+  {
+    "character": "떼",
+    "pronunciation": "tte"
+  },
+  {
+    "character": "또",
+    "pronunciation": "tto"
+  },
+  {
+    "character": "똑",
+    "pronunciation": "ttok"
+  },
+  {
+    "character": "뚜",
+    "pronunciation": "ttu"
+  },
+  {
+    "character": "뚫",
+    "pronunciation": "ttulh"
+  },
+  {
+    "character": "뚱",
+    "pronunciation": "ttung"
+  },
+  {
+    "character": "뛰",
+    "pronunciation": "ttwi"
+  },
+  {
+    "character": "뜨",
+    "pronunciation": "tteu"
+  },
+  {
+    "character": "뜩",
+    "pronunciation": "tteuk"
+  },
+  {
+    "character": "뜯",
+    "pronunciation": "tteut"
+  },
+  {
+    "character": "뜰",
+    "pronunciation": "tteul"
+  },
+  {
+    "character": "뜻",
+    "pronunciation": "tteus"
+  },
+  {
+    "character": "띄",
+    "pronunciation": "ttui"
+  },
+  {
+    "character": "라",
+    "pronunciation": "ra"
+  },
+  {
+    "character": "락",
+    "pronunciation": "rak"
+  },
+  {
+    "character": "란",
+    "pronunciation": "ran"
+  },
+  {
+    "character": "람",
+    "pronunciation": "ram"
+  },
+  {
+    "character": "랍",
+    "pronunciation": "rap"
+  },
+  {
+    "character": "랑",
+    "pronunciation": "rang"
+  },
+  {
+    "character": "랗",
+    "pronunciation": "rah"
+  },
+  {
+    "character": "래",
+    "pronunciation": "rae"
+  },
+  {
+    "character": "랜",
+    "pronunciation": "raen"
+  },
+  {
+    "character": "램",
+    "pronunciation": "raem"
+  },
+  {
+    "character": "랫",
+    "pronunciation": "raes"
+  },
+  {
+    "character": "략",
+    "pronunciation": "ryak"
+  },
+  {
+    "character": "량",
+    "pronunciation": "ryang"
+  },
+  {
+    "character": "러",
+    "pronunciation": "reo"
+  },
+  {
+    "character": "럭",
+    "pronunciation": "reok"
+  },
+  {
+    "character": "런",
+    "pronunciation": "reon"
+  },
+  {
+    "character": "럴",
+    "pronunciation": "reol"
+  },
+  {
+    "character": "럼",
+    "pronunciation": "reom"
+  },
+  {
+    "character": "럽",
+    "pronunciation": "reop"
+  },
+  {
+    "character": "럿",
+    "pronunciation": "reos"
+  },
+  {
+    "character": "렁",
+    "pronunciation": "reong"
+  },
+  {
+    "character": "렇",
+    "pronunciation": "reoh"
+  },
+  {
+    "character": "레",
+    "pronunciation": "re"
+  },
+  {
+    "character": "렉",
+    "pronunciation": "rek"
+  },
+  {
+    "character": "렌",
+    "pronunciation": "ren"
+  },
+  {
+    "character": "려",
+    "pronunciation": "ryeo"
+  },
+  {
+    "character": "력",
+    "pronunciation": "ryeok"
+  },
+  {
+    "character": "련",
+    "pronunciation": "ryeon"
+  },
+  {
+    "character": "렬",
+    "pronunciation": "ryeol"
+  },
+  {
+    "character": "렵",
+    "pronunciation": "ryeop"
+  },
+  {
+    "character": "령",
+    "pronunciation": "ryeong"
+  },
+  {
+    "character": "례",
+    "pronunciation": "rye"
+  },
+  {
+    "character": "로",
+    "pronunciation": "ro"
+  },
+  {
+    "character": "록",
+    "pronunciation": "rok"
+  },
+  {
+    "character": "론",
+    "pronunciation": "ron"
+  },
+  {
+    "character": "롬",
+    "pronunciation": "rom"
+  },
+  {
+    "character": "롭",
+    "pronunciation": "rop"
+  },
+  {
+    "character": "롯",
+    "pronunciation": "ros"
+  },
+  {
+    "character": "료",
+    "pronunciation": "ryo"
+  },
+  {
+    "character": "루",
+    "pronunciation": "ru"
+  },
+  {
+    "character": "룩",
+    "pronunciation": "ruk"
+  },
+  {
+    "character": "룹",
+    "pronunciation": "rup"
+  },
+  {
+    "character": "룻",
+    "pronunciation": "rus"
+  },
+  {
+    "character": "뤄",
+    "pronunciation": "rwo"
+  },
+  {
+    "character": "류",
+    "pronunciation": "ryu"
+  },
+  {
+    "character": "륙",
+    "pronunciation": "ryuk"
+  },
+  {
+    "character": "률",
+    "pronunciation": "ryul"
+  },
+  {
+    "character": "륭",
+    "pronunciation": "ryung"
+  },
+  {
+    "character": "르",
+    "pronunciation": "reu"
+  },
+  {
+    "character": "른",
+    "pronunciation": "reun"
+  },
+  {
+    "character": "를",
+    "pronunciation": "reul"
+  },
+  {
+    "character": "름",
+    "pronunciation": "reum"
+  },
+  {
+    "character": "릇",
+    "pronunciation": "reus"
+  },
+  {
+    "character": "릎",
+    "pronunciation": "reup"
+  },
+  {
+    "character": "리",
+    "pronunciation": "ri"
+  },
+  {
+    "character": "릭",
+    "pronunciation": "rik"
+  },
+  {
+    "character": "린",
+    "pronunciation": "rin"
+  },
+  {
+    "character": "림",
+    "pronunciation": "rim"
+  },
+  {
+    "character": "립",
+    "pronunciation": "rip"
+  },
+  {
+    "character": "릿",
+    "pronunciation": "ris"
+  },
+  {
+    "character": "링",
+    "pronunciation": "ring"
+  },
+  {
+    "character": "마",
+    "pronunciation": "ma"
+  },
+  {
+    "character": "막",
+    "pronunciation": "mak"
+  },
+  {
+    "character": "만",
+    "pronunciation": "man"
+  },
+  {
+    "character": "많",
+    "pronunciation": "manh"
+  },
+  {
+    "character": "말",
+    "pronunciation": "mal"
+  },
+  {
+    "character": "맑",
+    "pronunciation": "malk"
+  },
+  {
+    "character": "맘",
+    "pronunciation": "mam"
+  },
+  {
+    "character": "맙",
+    "pronunciation": "map"
+  },
+  {
+    "character": "맛",
+    "pronunciation": "mas"
+  },
+  {
+    "character": "망",
+    "pronunciation": "mang"
+  },
+  {
+    "character": "맞",
+    "pronunciation": "mat"
+  },
+  {
+    "character": "맡",
+    "pronunciation": "mat"
+  },
+  {
+    "character": "맣",
+    "pronunciation": "mah"
+  },
+  {
+    "character": "매",
+    "pronunciation": "mae"
+  },
+  {
+    "character": "맥",
+    "pronunciation": "maek"
+  },
+  {
+    "character": "맨",
+    "pronunciation": "maen"
+  },
+  {
+    "character": "맵",
+    "pronunciation": "maep"
+  },
+  {
+    "character": "맺",
+    "pronunciation": "maet"
+  },
+  {
+    "character": "머",
+    "pronunciation": "meo"
+  },
+  {
+    "character": "먹",
+    "pronunciation": "meok"
+  },
+  {
+    "character": "먼",
+    "pronunciation": "meon"
+  },
+  {
+    "character": "멀",
+    "pronunciation": "meol"
+  },
+  {
+    "character": "멈",
+    "pronunciation": "meom"
+  },
+  {
+    "character": "멋",
+    "pronunciation": "meos"
+  },
+  {
+    "character": "멍",
+    "pronunciation": "meong"
+  },
+  {
+    "character": "멎",
+    "pronunciation": "meot"
+  },
+  {
+    "character": "메",
+    "pronunciation": "me"
+  },
+  {
+    "character": "멘",
+    "pronunciation": "men"
+  },
+  {
+    "character": "멩",
+    "pronunciation": "meng"
+  },
+  {
+    "character": "며",
+    "pronunciation": "myeo"
+  },
+  {
+    "character": "면",
+    "pronunciation": "myeon"
+  },
+  {
+    "character": "멸",
+    "pronunciation": "myeol"
+  },
+  {
+    "character": "명",
+    "pronunciation": "myeong"
+  },
+  {
+    "character": "몇",
+    "pronunciation": "myeot"
+  },
+  {
+    "character": "모",
+    "pronunciation": "mo"
+  },
+  {
+    "character": "목",
+    "pronunciation": "mok"
+  },
+  {
+    "character": "몬",
+    "pronunciation": "mon"
+  },
+  {
+    "character": "몰",
+    "pronunciation": "mol"
+  },
+  {
+    "character": "몸",
+    "pronunciation": "mom"
+  },
+  {
+    "character": "몹",
+    "pronunciation": "mop"
+  },
+  {
+    "character": "못",
+    "pronunciation": "mos"
+  },
+  {
+    "character": "몽",
+    "pronunciation": "mong"
+  },
+  {
+    "character": "묘",
+    "pronunciation": "myo"
+  },
+  {
+    "character": "무",
+    "pronunciation": "mu"
+  },
+  {
+    "character": "묵",
+    "pronunciation": "muk"
+  },
+  {
+    "character": "묶",
+    "pronunciation": "muk"
+  },
+  {
+    "character": "문",
+    "pronunciation": "mun"
+  },
+  {
+    "character": "묻",
+    "pronunciation": "mut"
+  },
+  {
+    "character": "물",
+    "pronunciation": "mul"
+  },
+  {
+    "character": "뭄",
+    "pronunciation": "mum"
+  },
+  {
+    "character": "뭇",
+    "pronunciation": "mus"
+  },
+  {
+    "character": "뭐",
+    "pronunciation": "mwo"
+  },
+  {
+    "character": "뭘",
+    "pronunciation": "mwol"
+  },
+  {
+    "character": "뭣",
+    "pronunciation": "mwos"
+  },
+  {
+    "character": "므",
+    "pronunciation": "meu"
+  },
+  {
+    "character": "미",
+    "pronunciation": "mi"
+  },
+  {
+    "character": "민",
+    "pronunciation": "min"
+  },
+  {
+    "character": "믿",
+    "pronunciation": "mit"
+  },
+  {
+    "character": "밀",
+    "pronunciation": "mil"
+  },
+  {
+    "character": "밉",
+    "pronunciation": "mip"
+  },
+  {
+    "character": "밌",
+    "pronunciation": "mis"
+  },
+  {
+    "character": "및",
+    "pronunciation": "mit"
+  },
+  {
+    "character": "밑",
+    "pronunciation": "mit"
+  },
+  {
+    "character": "바",
+    "pronunciation": "ba"
+  },
+  {
+    "character": "박",
+    "pronunciation": "bak"
+  },
+  {
+    "character": "밖",
+    "pronunciation": "bak"
+  },
+  {
+    "character": "반",
+    "pronunciation": "ban"
+  },
+  {
+    "character": "받",
+    "pronunciation": "bat"
+  },
+  {
+    "character": "발",
+    "pronunciation": "bal"
+  },
+  {
+    "character": "밝",
+    "pronunciation": "balk"
+  },
+  {
+    "character": "밟",
+    "pronunciation": "balb"
+  },
+  {
+    "character": "밤",
+    "pronunciation": "bam"
+  },
+  {
+    "character": "밥",
+    "pronunciation": "bap"
+  },
+  {
+    "character": "방",
+    "pronunciation": "bang"
+  },
+  {
+    "character": "밭",
+    "pronunciation": "bat"
+  },
+  {
+    "character": "배",
+    "pronunciation": "bae"
+  },
+  {
+    "character": "백",
+    "pronunciation": "baek"
+  },
+  {
+    "character": "뱀",
+    "pronunciation": "baem"
+  },
+  {
+    "character": "뱃",
+    "pronunciation": "baes"
+  },
+  {
+    "character": "뱉",
+    "pronunciation": "baet"
+  },
+  {
+    "character": "버",
+    "pronunciation": "beo"
+  },
+  {
+    "character": "번",
+    "pronunciation": "beon"
+  },
+  {
+    "character": "벌",
+    "pronunciation": "beol"
+  },
+  {
+    "character": "범",
+    "pronunciation": "beom"
+  },
+  {
+    "character": "법",
+    "pronunciation": "beop"
+  },
+  {
+    "character": "벗",
+    "pronunciation": "beos"
+  },
+  {
+    "character": "베",
+    "pronunciation": "be"
+  },
+  {
+    "character": "벤",
+    "pronunciation": "ben"
+  },
+  {
+    "character": "벨",
+    "pronunciation": "bel"
+  },
+  {
+    "character": "벼",
+    "pronunciation": "byeo"
+  },
+  {
+    "character": "벽",
+    "pronunciation": "byeok"
+  },
+  {
+    "character": "변",
+    "pronunciation": "byeon"
+  },
+  {
+    "character": "별",
+    "pronunciation": "byeol"
+  },
+  {
+    "character": "볍",
+    "pronunciation": "byeop"
+  },
+  {
+    "character": "병",
+    "pronunciation": "byeong"
+  },
+  {
+    "character": "볕",
+    "pronunciation": "byeot"
+  },
+  {
+    "character": "보",
+    "pronunciation": "bo"
+  },
+  {
+    "character": "복",
+    "pronunciation": "bok"
+  },
+  {
+    "character": "볶",
+    "pronunciation": "bok"
+  },
+  {
+    "character": "본",
+    "pronunciation": "bon"
+  },
+  {
+    "character": "볼",
+    "pronunciation": "bol"
+  },
+  {
+    "character": "봄",
+    "pronunciation": "bom"
+  },
+  {
+    "character": "봇",
+    "pronunciation": "bos"
+  },
+  {
+    "character": "봉",
+    "pronunciation": "bong"
+  },
+  {
+    "character": "뵈",
+    "pronunciation": "boe"
+  },
+  {
+    "character": "뵙",
+    "pronunciation": "boep"
+  },
+  {
+    "character": "부",
+    "pronunciation": "bu"
+  },
+  {
+    "character": "북",
+    "pronunciation": "buk"
+  },
+  {
+    "character": "분",
+    "pronunciation": "bun"
+  },
+  {
+    "character": "불",
+    "pronunciation": "bul"
+  },
+  {
+    "character": "붉",
+    "pronunciation": "bulk"
+  },
+  {
+    "character": "붐",
+    "pronunciation": "bum"
+  },
+  {
+    "character": "붓",
+    "pronunciation": "bus"
+  },
+  {
+    "character": "붕",
+    "pronunciation": "bung"
+  },
+  {
+    "character": "붙",
+    "pronunciation": "but"
+  },
+  {
+    "character": "뷰",
+    "pronunciation": "byu"
+  },
+  {
+    "character": "브",
+    "pronunciation": "beu"
+  },
+  {
+    "character": "븐",
+    "pronunciation": "beun"
+  },
+  {
+    "character": "블",
+    "pronunciation": "beul"
+  },
+  {
+    "character": "비",
+    "pronunciation": "bi"
+  },
+  {
+    "character": "빌",
+    "pronunciation": "bil"
+  },
+  {
+    "character": "빔",
+    "pronunciation": "bim"
+  },
+  {
+    "character": "빗",
+    "pronunciation": "bis"
+  },
+  {
+    "character": "빚",
+    "pronunciation": "bit"
+  },
+  {
+    "character": "빛",
+    "pronunciation": "bit"
+  },
+  {
+    "character": "빠",
+    "pronunciation": "ppa"
+  },
+  {
+    "character": "빡",
+    "pronunciation": "ppak"
+  },
+  {
+    "character": "빨",
+    "pronunciation": "ppal"
+  },
+  {
+    "character": "빵",
+    "pronunciation": "ppang"
+  },
+  {
+    "character": "빼",
+    "pronunciation": "ppae"
+  },
+  {
+    "character": "뺏",
+    "pronunciation": "ppaes"
+  },
+  {
+    "character": "뺨",
+    "pronunciation": "ppyam"
+  },
+  {
+    "character": "뻐",
+    "pronunciation": "ppeo"
+  },
+  {
+    "character": "뻔",
+    "pronunciation": "ppeon"
+  },
+  {
+    "character": "뻗",
+    "pronunciation": "ppeot"
+  },
+  {
+    "character": "뼈",
+    "pronunciation": "ppyeo"
+  },
+  {
+    "character": "뼉",
+    "pronunciation": "ppyeok"
+  },
+  {
+    "character": "뽑",
+    "pronunciation": "ppop"
+  },
+  {
+    "character": "뿌",
+    "pronunciation": "ppu"
+  },
+  {
+    "character": "뿐",
+    "pronunciation": "ppun"
+  },
+  {
+    "character": "쁘",
+    "pronunciation": "ppeu"
+  },
+  {
+    "character": "쁨",
+    "pronunciation": "ppeum"
+  },
+  {
+    "character": "사",
+    "pronunciation": "sa"
+  },
+  {
+    "character": "삭",
+    "pronunciation": "sak"
+  },
+  {
+    "character": "산",
+    "pronunciation": "san"
+  },
+  {
+    "character": "살",
+    "pronunciation": "sal"
+  },
+  {
+    "character": "삶",
+    "pronunciation": "salm"
+  },
+  {
+    "character": "삼",
+    "pronunciation": "sam"
+  },
+  {
+    "character": "삿",
+    "pronunciation": "sas"
+  },
+  {
+    "character": "상",
+    "pronunciation": "sang"
+  },
+  {
+    "character": "새",
+    "pronunciation": "sae"
+  },
+  {
+    "character": "색",
+    "pronunciation": "saek"
+  },
+  {
+    "character": "샌",
+    "pronunciation": "saen"
+  },
+  {
+    "character": "생",
+    "pronunciation": "saeng"
+  },
+  {
+    "character": "샤",
+    "pronunciation": "sya"
+  },
+  {
+    "character": "서",
+    "pronunciation": "seo"
+  },
+  {
+    "character": "석",
+    "pronunciation": "seok"
+  },
+  {
+    "character": "섞",
+    "pronunciation": "seok"
+  },
+  {
+    "character": "선",
+    "pronunciation": "seon"
+  },
+  {
+    "character": "설",
+    "pronunciation": "seol"
+  },
+  {
+    "character": "섬",
+    "pronunciation": "seom"
+  },
+  {
+    "character": "섭",
+    "pronunciation": "seop"
+  },
+  {
+    "character": "섯",
+    "pronunciation": "seos"
+  },
+  {
+    "character": "성",
+    "pronunciation": "seong"
+  },
+  {
+    "character": "세",
+    "pronunciation": "se"
+  },
+  {
+    "character": "섹",
+    "pronunciation": "sek"
+  },
+  {
+    "character": "센",
+    "pronunciation": "sen"
+  },
+  {
+    "character": "셈",
+    "pronunciation": "sem"
+  },
+  {
+    "character": "셋",
+    "pronunciation": "ses"
+  },
+  {
+    "character": "셔",
+    "pronunciation": "syeo"
+  },
+  {
+    "character": "션",
+    "pronunciation": "syeon"
+  },
+  {
+    "character": "셨",
+    "pronunciation": "syeos"
+  },
+  {
+    "character": "소",
+    "pronunciation": "so"
+  },
+  {
+    "character": "속",
+    "pronunciation": "sok"
+  },
+  {
+    "character": "손",
+    "pronunciation": "son"
+  },
+  {
+    "character": "솔",
+    "pronunciation": "sol"
+  },
+  {
+    "character": "솜",
+    "pronunciation": "som"
+  },
+  {
+    "character": "솟",
+    "pronunciation": "sos"
+  },
+  {
+    "character": "송",
+    "pronunciation": "song"
+  },
+  {
+    "character": "솥",
+    "pronunciation": "sot"
+  },
+  {
+    "character": "쇄",
+    "pronunciation": "swae"
+  },
+  {
+    "character": "쇠",
+    "pronunciation": "soe"
+  },
+  {
+    "character": "쇼",
+    "pronunciation": "syo"
+  },
+  {
+    "character": "수",
+    "pronunciation": "su"
+  },
+  {
+    "character": "숙",
+    "pronunciation": "suk"
+  },
+  {
+    "character": "순",
+    "pronunciation": "sun"
+  },
+  {
+    "character": "숟",
+    "pronunciation": "sut"
+  },
+  {
+    "character": "술",
+    "pronunciation": "sul"
+  },
+  {
+    "character": "숨",
+    "pronunciation": "sum"
+  },
+  {
+    "character": "숫",
+    "pronunciation": "sus"
+  },
+  {
+    "character": "숭",
+    "pronunciation": "sung"
+  },
+  {
+    "character": "숲",
+    "pronunciation": "sup"
+  },
+  {
+    "character": "쉬",
+    "pronunciation": "swi"
+  },
+  {
+    "character": "쉰",
+    "pronunciation": "swin"
+  },
+  {
+    "character": "쉽",
+    "pronunciation": "swip"
+  },
+  {
+    "character": "슈",
+    "pronunciation": "syu"
+  },
+  {
+    "character": "스",
+    "pronunciation": "seu"
+  },
+  {
+    "character": "슨",
+    "pronunciation": "seun"
+  },
+  {
+    "character": "슬",
+    "pronunciation": "seul"
+  },
+  {
+    "character": "슴",
+    "pronunciation": "seum"
+  },
+  {
+    "character": "습",
+    "pronunciation": "seup"
+  },
+  {
+    "character": "슷",
+    "pronunciation": "seus"
+  },
+  {
+    "character": "승",
+    "pronunciation": "seung"
+  },
+  {
+    "character": "시",
+    "pronunciation": "si"
+  },
+  {
+    "character": "식",
+    "pronunciation": "sik"
+  },
+  {
+    "character": "신",
+    "pronunciation": "sin"
+  },
+  {
+    "character": "싣",
+    "pronunciation": "sit"
+  },
+  {
+    "character": "실",
+    "pronunciation": "sil"
+  },
+  {
+    "character": "싫",
+    "pronunciation": "silh"
+  },
+  {
+    "character": "심",
+    "pronunciation": "sim"
+  },
+  {
+    "character": "십",
+    "pronunciation": "sip"
+  },
+  {
+    "character": "싯",
+    "pronunciation": "sis"
+  },
+  {
+    "character": "싱",
+    "pronunciation": "sing"
+  },
+  {
+    "character": "싶",
+    "pronunciation": "sip"
+  },
+  {
+    "character": "싸",
+    "pronunciation": "ssa"
+  },
+  {
+    "character": "싹",
+    "pronunciation": "ssak"
+  },
+  {
+    "character": "싼",
+    "pronunciation": "ssan"
+  },
+  {
+    "character": "쌀",
+    "pronunciation": "ssal"
+  },
+  {
+    "character": "쌍",
+    "pronunciation": "ssang"
+  },
+  {
+    "character": "쌓",
+    "pronunciation": "ssah"
+  },
+  {
+    "character": "써",
+    "pronunciation": "sseo"
+  },
+  {
+    "character": "썩",
+    "pronunciation": "sseok"
+  },
+  {
+    "character": "썰",
+    "pronunciation": "sseol"
+  },
+  {
+    "character": "썹",
+    "pronunciation": "sseop"
+  },
+  {
+    "character": "쎄",
+    "pronunciation": "sse"
+  },
+  {
+    "character": "쏘",
+    "pronunciation": "sso"
+  },
+  {
+    "character": "쏟",
+    "pronunciation": "ssot"
+  },
+  {
+    "character": "쑤",
+    "pronunciation": "ssu"
+  },
+  {
+    "character": "쓰",
+    "pronunciation": "sseu"
+  },
+  {
+    "character": "쓴",
+    "pronunciation": "sseun"
+  },
+  {
+    "character": "쓸",
+    "pronunciation": "sseul"
+  },
+  {
+    "character": "씀",
+    "pronunciation": "sseum"
+  },
+  {
+    "character": "씌",
+    "pronunciation": "ssui"
+  },
+  {
+    "character": "씨",
+    "pronunciation": "ssi"
+  },
+  {
+    "character": "씩",
+    "pronunciation": "ssik"
+  },
+  {
+    "character": "씬",
+    "pronunciation": "ssin"
+  },
+  {
+    "character": "씹",
+    "pronunciation": "ssip"
+  },
+  {
+    "character": "씻",
+    "pronunciation": "ssis"
+  },
+  {
+    "character": "아",
+    "pronunciation": "a"
+  },
+  {
+    "character": "악",
+    "pronunciation": "ak"
+  },
+  {
+    "character": "안",
+    "pronunciation": "an"
+  },
+  {
+    "character": "앉",
+    "pronunciation": "anj"
+  },
+  {
+    "character": "않",
+    "pronunciation": "anh"
+  },
+  {
+    "character": "알",
+    "pronunciation": "al"
+  },
+  {
+    "character": "앓",
+    "pronunciation": "alh"
+  },
+  {
+    "character": "암",
+    "pronunciation": "am"
+  },
+  {
+    "character": "압",
+    "pronunciation": "ap"
+  },
+  {
+    "character": "앗",
+    "pronunciation": "as"
+  },
+  {
+    "character": "앙",
+    "pronunciation": "ang"
+  },
+  {
+    "character": "앞",
+    "pronunciation": "ap"
+  },
+  {
+    "character": "애",
+    "pronunciation": "ae"
+  },
+  {
+    "character": "액",
+    "pronunciation": "aek"
+  },
+  {
+    "character": "앨",
+    "pronunciation": "ael"
+  },
+  {
+    "character": "야",
+    "pronunciation": "ya"
+  },
+  {
+    "character": "약",
+    "pronunciation": "yak"
+  },
+  {
+    "character": "얀",
+    "pronunciation": "yan"
+  },
+  {
+    "character": "얄",
+    "pronunciation": "yal"
+  },
+  {
+    "character": "얇",
+    "pronunciation": "yalb"
+  },
+  {
+    "character": "양",
+    "pronunciation": "yang"
+  },
+  {
+    "character": "얕",
+    "pronunciation": "yat"
+  },
+  {
+    "character": "얗",
+    "pronunciation": "yah"
+  },
+  {
+    "character": "얘",
+    "pronunciation": "yae"
+  },
+  {
+    "character": "어",
+    "pronunciation": "eo"
+  },
+  {
+    "character": "억",
+    "pronunciation": "eok"
+  },
+  {
+    "character": "언",
+    "pronunciation": "eon"
+  },
+  {
+    "character": "얹",
+    "pronunciation": "eonj"
+  },
+  {
+    "character": "얻",
+    "pronunciation": "eot"
+  },
+  {
+    "character": "얼",
+    "pronunciation": "eol"
+  },
+  {
+    "character": "엄",
+    "pronunciation": "eom"
+  },
+  {
+    "character": "업",
+    "pronunciation": "eop"
+  },
+  {
+    "character": "없",
+    "pronunciation": "eobs"
+  },
+  {
+    "character": "엇",
+    "pronunciation": "eos"
+  },
+  {
+    "character": "엉",
+    "pronunciation": "eong"
+  },
+  {
+    "character": "엊",
+    "pronunciation": "eot"
+  },
+  {
+    "character": "엌",
+    "pronunciation": "eok"
+  },
+  {
+    "character": "엎",
+    "pronunciation": "eop"
+  },
+  {
+    "character": "에",
+    "pronunciation": "e"
+  },
+  {
+    "character": "엔",
+    "pronunciation": "en"
+  },
+  {
+    "character": "엘",
+    "pronunciation": "el"
+  },
+  {
+    "character": "여",
+    "pronunciation": "yeo"
+  },
+  {
+    "character": "역",
+    "pronunciation": "yeok"
+  },
+  {
+    "character": "연",
+    "pronunciation": "yeon"
+  },
+  {
+    "character": "열",
+    "pronunciation": "yeol"
+  },
+  {
+    "character": "엷",
+    "pronunciation": "yeolb"
+  },
+  {
+    "character": "염",
+    "pronunciation": "yeom"
+  },
+  {
+    "character": "엽",
+    "pronunciation": "yeop"
+  },
+  {
+    "character": "엿",
+    "pronunciation": "yeos"
+  },
+  {
+    "character": "영",
+    "pronunciation": "yeong"
+  },
+  {
+    "character": "옆",
+    "pronunciation": "yeop"
+  },
+  {
+    "character": "예",
+    "pronunciation": "ye"
+  },
+  {
+    "character": "옛",
+    "pronunciation": "yes"
+  },
+  {
+    "character": "오",
+    "pronunciation": "o"
+  },
+  {
+    "character": "옥",
+    "pronunciation": "ok"
+  },
+  {
+    "character": "온",
+    "pronunciation": "on"
+  },
+  {
+    "character": "올",
+    "pronunciation": "ol"
+  },
+  {
+    "character": "옮",
+    "pronunciation": "olm"
+  },
+  {
+    "character": "옳",
+    "pronunciation": "olh"
+  },
+  {
+    "character": "옷",
+    "pronunciation": "os"
+  },
+  {
+    "character": "옹",
+    "pronunciation": "ong"
+  },
+  {
+    "character": "와",
+    "pronunciation": "wa"
+  },
+  {
+    "character": "완",
+    "pronunciation": "wan"
+  },
+  {
+    "character": "왕",
+    "pronunciation": "wang"
+  },
+  {
+    "character": "왜",
+    "pronunciation": "wae"
+  },
+  {
+    "character": "왠",
+    "pronunciation": "waen"
+  },
+  {
+    "character": "외",
+    "pronunciation": "oe"
+  },
+  {
+    "character": "왼",
+    "pronunciation": "oen"
+  },
+  {
+    "character": "요",
+    "pronunciation": "yo"
+  },
+  {
+    "character": "욕",
+    "pronunciation": "yok"
+  },
+  {
+    "character": "용",
+    "pronunciation": "yong"
+  },
+  {
+    "character": "우",
+    "pronunciation": "u"
+  },
+  {
+    "character": "욱",
+    "pronunciation": "uk"
+  },
+  {
+    "character": "운",
+    "pronunciation": "un"
+  },
+  {
+    "character": "울",
+    "pronunciation": "ul"
+  },
+  {
+    "character": "움",
+    "pronunciation": "um"
+  },
+  {
+    "character": "웃",
+    "pronunciation": "us"
+  },
+  {
+    "character": "웅",
+    "pronunciation": "ung"
+  },
+  {
+    "character": "워",
+    "pronunciation": "wo"
+  },
+  {
+    "character": "원",
+    "pronunciation": "won"
+  },
+  {
+    "character": "월",
+    "pronunciation": "wol"
+  },
+  {
+    "character": "웨",
+    "pronunciation": "we"
+  },
+  {
+    "character": "웬",
+    "pronunciation": "wen"
+  },
+  {
+    "character": "위",
+    "pronunciation": "wi"
+  },
+  {
+    "character": "윗",
+    "pronunciation": "wis"
+  },
+  {
+    "character": "유",
+    "pronunciation": "yu"
+  },
+  {
+    "character": "육",
+    "pronunciation": "yuk"
+  },
+  {
+    "character": "율",
+    "pronunciation": "yul"
+  },
+  {
+    "character": "으",
+    "pronunciation": "eu"
+  },
+  {
+    "character": "윽",
+    "pronunciation": "euk"
+  },
+  {
+    "character": "은",
+    "pronunciation": "eun"
+  },
+  {
+    "character": "을",
+    "pronunciation": "eul"
+  },
+  {
+    "character": "음",
+    "pronunciation": "eum"
+  },
+  {
+    "character": "응",
+    "pronunciation": "eung"
+  },
+  {
+    "character": "의",
+    "pronunciation": "ui"
+  },
+  {
+    "character": "이",
+    "pronunciation": "i"
+  },
+  {
+    "character": "익",
+    "pronunciation": "ik"
+  },
+  {
+    "character": "인",
+    "pronunciation": "in"
+  },
+  {
+    "character": "일",
+    "pronunciation": "il"
+  },
+  {
+    "character": "읽",
+    "pronunciation": "ilk"
+  },
+  {
+    "character": "잃",
+    "pronunciation": "ilh"
+  },
+  {
+    "character": "임",
+    "pronunciation": "im"
+  },
+  {
+    "character": "입",
+    "pronunciation": "ip"
+  },
+  {
+    "character": "잇",
+    "pronunciation": "is"
+  },
+  {
+    "character": "있",
+    "pronunciation": "is"
+  },
+  {
+    "character": "잊",
+    "pronunciation": "it"
+  },
+  {
+    "character": "잎",
+    "pronunciation": "ip"
+  },
+  {
+    "character": "자",
+    "pronunciation": "ja"
+  },
+  {
+    "character": "작",
+    "pronunciation": "jak"
+  },
+  {
+    "character": "잔",
+    "pronunciation": "jan"
+  },
+  {
+    "character": "잖",
+    "pronunciation": "janh"
+  },
+  {
+    "character": "잘",
+    "pronunciation": "jal"
+  },
+  {
+    "character": "잠",
+    "pronunciation": "jam"
+  },
+  {
+    "character": "잡",
+    "pronunciation": "jap"
+  },
+  {
+    "character": "잣",
+    "pronunciation": "jas"
+  },
+  {
+    "character": "장",
+    "pronunciation": "jang"
+  },
+  {
+    "character": "잦",
+    "pronunciation": "jat"
+  },
+  {
+    "character": "재",
+    "pronunciation": "jae"
+  },
+  {
+    "character": "쟁",
+    "pronunciation": "jaeng"
+  },
+  {
+    "character": "쟤",
+    "pronunciation": "jyae"
+  },
+  {
+    "character": "저",
+    "pronunciation": "jeo"
+  },
+  {
+    "character": "적",
+    "pronunciation": "jeok"
+  },
+  {
+    "character": "전",
+    "pronunciation": "jeon"
+  },
+  {
+    "character": "절",
+    "pronunciation": "jeol"
+  },
+  {
+    "character": "젊",
+    "pronunciation": "jeolm"
+  },
+  {
+    "character": "점",
+    "pronunciation": "jeom"
+  },
+  {
+    "character": "접",
+    "pronunciation": "jeop"
+  },
+  {
+    "character": "젓",
+    "pronunciation": "jeos"
+  },
+  {
+    "character": "정",
+    "pronunciation": "jeong"
+  },
+  {
+    "character": "젖",
+    "pronunciation": "jeot"
+  },
+  {
+    "character": "제",
+    "pronunciation": "je"
+  },
+  {
+    "character": "젠",
+    "pronunciation": "jen"
+  },
+  {
+    "character": "젯",
+    "pronunciation": "jes"
+  },
+  {
+    "character": "져",
+    "pronunciation": "jyeo"
+  },
+  {
+    "character": "조",
+    "pronunciation": "jo"
+  },
+  {
+    "character": "족",
+    "pronunciation": "jok"
+  },
+  {
+    "character": "존",
+    "pronunciation": "jon"
+  },
+  {
+    "character": "졸",
+    "pronunciation": "jol"
+  },
+  {
+    "character": "좀",
+    "pronunciation": "jom"
+  },
+  {
+    "character": "좁",
+    "pronunciation": "jop"
+  },
+  {
+    "character": "종",
+    "pronunciation": "jong"
+  },
+  {
+    "character": "좋",
+    "pronunciation": "joh"
+  },
+  {
+    "character": "좌",
+    "pronunciation": "jwa"
+  },
+  {
+    "character": "죄",
+    "pronunciation": "joe"
+  },
+  {
+    "character": "주",
+    "pronunciation": "ju"
+  },
+  {
+    "character": "죽",
+    "pronunciation": "juk"
+  },
+  {
+    "character": "준",
+    "pronunciation": "jun"
+  },
+  {
+    "character": "줄",
+    "pronunciation": "jul"
+  },
+  {
+    "character": "줌",
+    "pronunciation": "jum"
+  },
+  {
+    "character": "줍",
+    "pronunciation": "jup"
+  },
+  {
+    "character": "중",
+    "pronunciation": "jung"
+  },
+  {
+    "character": "쥐",
+    "pronunciation": "jwi"
+  },
+  {
+    "character": "즈",
+    "pronunciation": "jeu"
+  },
+  {
+    "character": "즉",
+    "pronunciation": "jeuk"
+  },
+  {
+    "character": "즌",
+    "pronunciation": "jeun"
+  },
+  {
+    "character": "즐",
+    "pronunciation": "jeul"
+  },
+  {
+    "character": "즘",
+    "pronunciation": "jeum"
+  },
+  {
+    "character": "증",
+    "pronunciation": "jeung"
+  },
+  {
+    "character": "지",
+    "pronunciation": "ji"
+  },
+  {
+    "character": "직",
+    "pronunciation": "jik"
+  },
+  {
+    "character": "진",
+    "pronunciation": "jin"
+  },
+  {
+    "character": "질",
+    "pronunciation": "jil"
+  },
+  {
+    "character": "짐",
+    "pronunciation": "jim"
+  },
+  {
+    "character": "집",
+    "pronunciation": "jip"
+  },
+  {
+    "character": "짓",
+    "pronunciation": "jis"
+  },
+  {
+    "character": "징",
+    "pronunciation": "jing"
+  },
+  {
+    "character": "짙",
+    "pronunciation": "jit"
+  },
+  {
+    "character": "짚",
+    "pronunciation": "jip"
+  },
+  {
+    "character": "짜",
+    "pronunciation": "jja"
+  },
+  {
+    "character": "짝",
+    "pronunciation": "jjak"
+  },
+  {
+    "character": "짠",
+    "pronunciation": "jjan"
+  },
+  {
+    "character": "짢",
+    "pronunciation": "jjanh"
+  },
+  {
+    "character": "짧",
+    "pronunciation": "jjalb"
+  },
+  {
+    "character": "째",
+    "pronunciation": "jjae"
+  },
+  {
+    "character": "쨌",
+    "pronunciation": "jjaes"
+  },
+  {
+    "character": "쩌",
+    "pronunciation": "jjeo"
+  },
+  {
+    "character": "쩍",
+    "pronunciation": "jjeok"
+  },
+  {
+    "character": "쩐",
+    "pronunciation": "jjeon"
+  },
+  {
+    "character": "쩔",
+    "pronunciation": "jjeol"
+  },
+  {
+    "character": "쩜",
+    "pronunciation": "jjeom"
+  },
+  {
+    "character": "쪽",
+    "pronunciation": "jjok"
+  },
+  {
+    "character": "쫓",
+    "pronunciation": "jjot"
+  },
+  {
+    "character": "쭈",
+    "pronunciation": "jju"
+  },
+  {
+    "character": "쭉",
+    "pronunciation": "jjuk"
+  },
+  {
+    "character": "찌",
+    "pronunciation": "jji"
+  },
+  {
+    "character": "찍",
+    "pronunciation": "jjik"
+  },
+  {
+    "character": "찢",
+    "pronunciation": "jjit"
+  },
+  {
+    "character": "차",
+    "pronunciation": "cha"
+  },
+  {
+    "character": "착",
+    "pronunciation": "chak"
+  },
+  {
+    "character": "찬",
+    "pronunciation": "chan"
+  },
+  {
+    "character": "찮",
+    "pronunciation": "chanh"
+  },
+  {
+    "character": "찰",
+    "pronunciation": "chal"
+  },
+  {
+    "character": "참",
+    "pronunciation": "cham"
+  },
+  {
+    "character": "찻",
+    "pronunciation": "chas"
+  },
+  {
+    "character": "창",
+    "pronunciation": "chang"
+  },
+  {
+    "character": "찾",
+    "pronunciation": "chat"
+  },
+  {
+    "character": "채",
+    "pronunciation": "chae"
+  },
+  {
+    "character": "책",
+    "pronunciation": "chaek"
+  },
+  {
+    "character": "챔",
+    "pronunciation": "chaem"
+  },
+  {
+    "character": "챙",
+    "pronunciation": "chaeng"
+  },
+  {
+    "character": "처",
+    "pronunciation": "cheo"
+  },
+  {
+    "character": "척",
+    "pronunciation": "cheok"
+  },
+  {
+    "character": "천",
+    "pronunciation": "cheon"
+  },
+  {
+    "character": "철",
+    "pronunciation": "cheol"
+  },
+  {
+    "character": "첩",
+    "pronunciation": "cheop"
+  },
+  {
+    "character": "첫",
+    "pronunciation": "cheos"
+  },
+  {
+    "character": "청",
+    "pronunciation": "cheong"
+  },
+  {
+    "character": "체",
+    "pronunciation": "che"
+  },
+  {
+    "character": "쳐",
+    "pronunciation": "chyeo"
+  },
+  {
+    "character": "초",
+    "pronunciation": "cho"
+  },
+  {
+    "character": "촉",
+    "pronunciation": "chok"
+  },
+  {
+    "character": "촌",
+    "pronunciation": "chon"
+  },
+  {
+    "character": "촛",
+    "pronunciation": "chos"
+  },
+  {
+    "character": "총",
+    "pronunciation": "chong"
+  },
+  {
+    "character": "촬",
+    "pronunciation": "chwal"
+  },
+  {
+    "character": "최",
+    "pronunciation": "choe"
+  },
+  {
+    "character": "추",
+    "pronunciation": "chu"
+  },
+  {
+    "character": "축",
+    "pronunciation": "chuk"
+  },
+  {
+    "character": "춘",
+    "pronunciation": "chun"
+  },
+  {
+    "character": "출",
+    "pronunciation": "chul"
+  },
+  {
+    "character": "춤",
+    "pronunciation": "chum"
+  },
+  {
+    "character": "춥",
+    "pronunciation": "chup"
+  },
+  {
+    "character": "춧",
+    "pronunciation": "chus"
+  },
+  {
+    "character": "충",
+    "pronunciation": "chung"
+  },
+  {
+    "character": "취",
+    "pronunciation": "chwi"
+  },
+  {
+    "character": "츠",
+    "pronunciation": "cheu"
+  },
+  {
+    "character": "측",
+    "pronunciation": "cheuk"
+  },
+  {
+    "character": "츰",
+    "pronunciation": "cheum"
+  },
+  {
+    "character": "층",
+    "pronunciation": "cheung"
+  },
+  {
+    "character": "치",
+    "pronunciation": "chi"
+  },
+  {
+    "character": "칙",
+    "pronunciation": "chik"
+  },
+  {
+    "character": "친",
+    "pronunciation": "chin"
+  },
+  {
+    "character": "칠",
+    "pronunciation": "chil"
+  },
+  {
+    "character": "침",
+    "pronunciation": "chim"
+  },
+  {
+    "character": "칫",
+    "pronunciation": "chis"
+  },
+  {
+    "character": "칭",
+    "pronunciation": "ching"
+  },
+  {
+    "character": "카",
+    "pronunciation": "ka"
+  },
+  {
+    "character": "칸",
+    "pronunciation": "kan"
+  },
+  {
+    "character": "칼",
+    "pronunciation": "kal"
+  },
+  {
+    "character": "캄",
+    "pronunciation": "kam"
+  },
+  {
+    "character": "캐",
+    "pronunciation": "kae"
+  },
+  {
+    "character": "캠",
+    "pronunciation": "kaem"
+  },
+  {
+    "character": "커",
+    "pronunciation": "keo"
+  },
+  {
+    "character": "컨",
+    "pronunciation": "keon"
+  },
+  {
+    "character": "컬",
+    "pronunciation": "keol"
+  },
+  {
+    "character": "컴",
+    "pronunciation": "keom"
+  },
+  {
+    "character": "컵",
+    "pronunciation": "keop"
+  },
+  {
+    "character": "컷",
+    "pronunciation": "keos"
+  },
+  {
+    "character": "케",
+    "pronunciation": "ke"
+  },
+  {
+    "character": "켓",
+    "pronunciation": "kes"
+  },
+  {
+    "character": "켜",
+    "pronunciation": "kyeo"
+  },
+  {
+    "character": "코",
+    "pronunciation": "ko"
+  },
+  {
+    "character": "콘",
+    "pronunciation": "kon"
+  },
+  {
+    "character": "콜",
+    "pronunciation": "kol"
+  },
+  {
+    "character": "콤",
+    "pronunciation": "kom"
+  },
+  {
+    "character": "콩",
+    "pronunciation": "kong"
+  },
+  {
+    "character": "쾌",
+    "pronunciation": "kwae"
+  },
+  {
+    "character": "쿄",
+    "pronunciation": "kyo"
+  },
+  {
+    "character": "쿠",
+    "pronunciation": "ku"
+  },
+  {
+    "character": "퀴",
+    "pronunciation": "kwi"
+  },
+  {
+    "character": "크",
+    "pronunciation": "keu"
+  },
+  {
+    "character": "큰",
+    "pronunciation": "keun"
+  },
+  {
+    "character": "클",
+    "pronunciation": "keul"
+  },
+  {
+    "character": "큼",
+    "pronunciation": "keum"
+  },
+  {
+    "character": "키",
+    "pronunciation": "ki"
+  },
+  {
+    "character": "킬",
+    "pronunciation": "kil"
+  },
+  {
+    "character": "타",
+    "pronunciation": "ta"
+  },
+  {
+    "character": "탁",
+    "pronunciation": "tak"
+  },
+  {
+    "character": "탄",
+    "pronunciation": "tan"
+  },
+  {
+    "character": "탈",
+    "pronunciation": "tal"
+  },
+  {
+    "character": "탑",
+    "pronunciation": "tap"
+  },
+  {
+    "character": "탓",
+    "pronunciation": "tas"
+  },
+  {
+    "character": "탕",
+    "pronunciation": "tang"
+  },
+  {
+    "character": "태",
+    "pronunciation": "tae"
+  },
+  {
+    "character": "택",
+    "pronunciation": "taek"
+  },
+  {
+    "character": "탤",
+    "pronunciation": "tael"
+  },
+  {
+    "character": "터",
+    "pronunciation": "teo"
+  },
+  {
+    "character": "턱",
+    "pronunciation": "teok"
+  },
+  {
+    "character": "턴",
+    "pronunciation": "teon"
+  },
+  {
+    "character": "털",
+    "pronunciation": "teol"
+  },
+  {
+    "character": "텅",
+    "pronunciation": "teong"
+  },
+  {
+    "character": "테",
+    "pronunciation": "te"
+  },
+  {
+    "character": "텍",
+    "pronunciation": "tek"
+  },
+  {
+    "character": "텔",
+    "pronunciation": "tel"
+  },
+  {
+    "character": "템",
+    "pronunciation": "tem"
+  },
+  {
+    "character": "토",
+    "pronunciation": "to"
+  },
+  {
+    "character": "톤",
+    "pronunciation": "ton"
+  },
+  {
+    "character": "톨",
+    "pronunciation": "tol"
+  },
+  {
+    "character": "톱",
+    "pronunciation": "top"
+  },
+  {
+    "character": "통",
+    "pronunciation": "tong"
+  },
+  {
+    "character": "퇴",
+    "pronunciation": "toe"
+  },
+  {
+    "character": "투",
+    "pronunciation": "tu"
+  },
+  {
+    "character": "툴",
+    "pronunciation": "tul"
+  },
+  {
+    "character": "툼",
+    "pronunciation": "tum"
+  },
+  {
+    "character": "퉁",
+    "pronunciation": "tung"
+  },
+  {
+    "character": "튀",
+    "pronunciation": "twi"
+  },
+  {
+    "character": "튜",
+    "pronunciation": "tyu"
+  },
+  {
+    "character": "트",
+    "pronunciation": "teu"
+  },
+  {
+    "character": "특",
+    "pronunciation": "teuk"
+  },
+  {
+    "character": "튼",
+    "pronunciation": "teun"
+  },
+  {
+    "character": "튿",
+    "pronunciation": "teut"
+  },
+  {
+    "character": "틀",
+    "pronunciation": "teul"
+  },
+  {
+    "character": "틈",
+    "pronunciation": "teum"
+  },
+  {
+    "character": "티",
+    "pronunciation": "ti"
+  },
+  {
+    "character": "틱",
+    "pronunciation": "tik"
+  },
+  {
+    "character": "팀",
+    "pronunciation": "tim"
+  },
+  {
+    "character": "팅",
+    "pronunciation": "ting"
+  },
+  {
+    "character": "파",
+    "pronunciation": "pa"
+  },
+  {
+    "character": "팎",
+    "pronunciation": "pak"
+  },
+  {
+    "character": "판",
+    "pronunciation": "pan"
+  },
+  {
+    "character": "팔",
+    "pronunciation": "pal"
+  },
+  {
+    "character": "팝",
+    "pronunciation": "pap"
+  },
+  {
+    "character": "패",
+    "pronunciation": "pae"
+  },
+  {
+    "character": "팩",
+    "pronunciation": "paek"
+  },
+  {
+    "character": "팬",
+    "pronunciation": "paen"
+  },
+  {
+    "character": "팽",
+    "pronunciation": "paeng"
+  },
+  {
+    "character": "퍼",
+    "pronunciation": "peo"
+  },
+  {
+    "character": "퍽",
+    "pronunciation": "peok"
+  },
+  {
+    "character": "페",
+    "pronunciation": "pe"
+  },
+  {
+    "character": "펜",
+    "pronunciation": "pen"
+  },
+  {
+    "character": "펴",
+    "pronunciation": "pyeo"
+  },
+  {
+    "character": "편",
+    "pronunciation": "pyeon"
+  },
+  {
+    "character": "펼",
+    "pronunciation": "pyeol"
+  },
+  {
+    "character": "평",
+    "pronunciation": "pyeong"
+  },
+  {
+    "character": "폐",
+    "pronunciation": "pye"
+  },
+  {
+    "character": "포",
+    "pronunciation": "po"
+  },
+  {
+    "character": "폭",
+    "pronunciation": "pok"
+  },
+  {
+    "character": "폰",
+    "pronunciation": "pon"
+  },
+  {
+    "character": "표",
+    "pronunciation": "pyo"
+  },
+  {
+    "character": "푸",
+    "pronunciation": "pu"
+  },
+  {
+    "character": "푹",
+    "pronunciation": "puk"
+  },
+  {
+    "character": "풀",
+    "pronunciation": "pul"
+  },
+  {
+    "character": "품",
+    "pronunciation": "pum"
+  },
+  {
+    "character": "풍",
+    "pronunciation": "pung"
+  },
+  {
+    "character": "퓨",
+    "pronunciation": "pyu"
+  },
+  {
+    "character": "프",
+    "pronunciation": "peu"
+  },
+  {
+    "character": "플",
+    "pronunciation": "peul"
+  },
+  {
+    "character": "픔",
+    "pronunciation": "peum"
+  },
+  {
+    "character": "피",
+    "pronunciation": "pi"
+  },
+  {
+    "character": "픽",
+    "pronunciation": "pik"
+  },
+  {
+    "character": "필",
+    "pronunciation": "pil"
+  },
+  {
+    "character": "핏",
+    "pronunciation": "pis"
+  },
+  {
+    "character": "핑",
+    "pronunciation": "ping"
+  },
+  {
+    "character": "하",
+    "pronunciation": "ha"
+  },
+  {
+    "character": "학",
+    "pronunciation": "hak"
+  },
+  {
+    "character": "한",
+    "pronunciation": "han"
+  },
+  {
+    "character": "할",
+    "pronunciation": "hal"
+  },
+  {
+    "character": "함",
+    "pronunciation": "ham"
+  },
+  {
+    "character": "합",
+    "pronunciation": "hap"
+  },
+  {
+    "character": "항",
+    "pronunciation": "hang"
+  },
+  {
+    "character": "해",
+    "pronunciation": "hae"
+  },
+  {
+    "character": "핵",
+    "pronunciation": "haek"
+  },
+  {
+    "character": "핸",
+    "pronunciation": "haen"
+  },
+  {
+    "character": "햄",
+    "pronunciation": "haem"
+  },
+  {
+    "character": "햇",
+    "pronunciation": "haes"
+  },
+  {
+    "character": "행",
+    "pronunciation": "haeng"
+  },
+  {
+    "character": "향",
+    "pronunciation": "hyang"
+  },
+  {
+    "character": "허",
+    "pronunciation": "heo"
+  },
+  {
+    "character": "헌",
+    "pronunciation": "heon"
+  },
+  {
+    "character": "험",
+    "pronunciation": "heom"
+  },
+  {
+    "character": "헤",
+    "pronunciation": "he"
+  },
+  {
+    "character": "헬",
+    "pronunciation": "hel"
+  },
+  {
+    "character": "혀",
+    "pronunciation": "hyeo"
+  },
+  {
+    "character": "현",
+    "pronunciation": "hyeon"
+  },
+  {
+    "character": "혈",
+    "pronunciation": "hyeol"
+  },
+  {
+    "character": "협",
+    "pronunciation": "hyeop"
+  },
+  {
+    "character": "형",
+    "pronunciation": "hyeong"
+  },
+  {
+    "character": "혜",
+    "pronunciation": "hye"
+  },
+  {
+    "character": "호",
+    "pronunciation": "ho"
+  },
+  {
+    "character": "혹",
+    "pronunciation": "hok"
+  },
+  {
+    "character": "혼",
+    "pronunciation": "hon"
+  },
+  {
+    "character": "홀",
+    "pronunciation": "hol"
+  },
+  {
+    "character": "홈",
+    "pronunciation": "hom"
+  },
+  {
+    "character": "홉",
+    "pronunciation": "hop"
+  },
+  {
+    "character": "홍",
+    "pronunciation": "hong"
+  },
+  {
+    "character": "화",
+    "pronunciation": "hwa"
+  },
+  {
+    "character": "확",
+    "pronunciation": "hwak"
+  },
+  {
+    "character": "환",
+    "pronunciation": "hwan"
+  },
+  {
+    "character": "활",
+    "pronunciation": "hwal"
+  },
+  {
+    "character": "황",
+    "pronunciation": "hwang"
+  },
+  {
+    "character": "회",
+    "pronunciation": "hoe"
+  },
+  {
+    "character": "획",
+    "pronunciation": "hoek"
+  },
+  {
+    "character": "횟",
+    "pronunciation": "hoes"
+  },
+  {
+    "character": "횡",
+    "pronunciation": "hoeng"
+  },
+  {
+    "character": "효",
+    "pronunciation": "hyo"
+  },
+  {
+    "character": "후",
+    "pronunciation": "hu"
+  },
+  {
+    "character": "훈",
+    "pronunciation": "hun"
+  },
+  {
+    "character": "훌",
+    "pronunciation": "hul"
+  },
+  {
+    "character": "훔",
+    "pronunciation": "hum"
+  },
+  {
+    "character": "훨",
+    "pronunciation": "hwol"
+  },
+  {
+    "character": "휘",
+    "pronunciation": "hwi"
+  },
+  {
+    "character": "휴",
+    "pronunciation": "hyu"
+  },
+  {
+    "character": "흉",
+    "pronunciation": "hyung"
+  },
+  {
+    "character": "흐",
+    "pronunciation": "heu"
+  },
+  {
+    "character": "흑",
+    "pronunciation": "heuk"
+  },
+  {
+    "character": "흔",
+    "pronunciation": "heun"
+  },
+  {
+    "character": "흘",
+    "pronunciation": "heul"
+  },
+  {
+    "character": "흙",
+    "pronunciation": "heulk"
+  },
+  {
+    "character": "흡",
+    "pronunciation": "heup"
+  },
+  {
+    "character": "흥",
+    "pronunciation": "heung"
+  },
+  {
+    "character": "흩",
+    "pronunciation": "heut"
+  },
+  {
+    "character": "희",
+    "pronunciation": "hui"
+  },
+  {
+    "character": "흰",
+    "pronunciation": "huin"
+  },
+  {
+    "character": "히",
+    "pronunciation": "hi"
+  },
+  {
+    "character": "힘",
+    "pronunciation": "him"
+  }
+]
