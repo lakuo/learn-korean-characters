@@ -385,6 +385,29 @@
         }
       }
 
+      function searchCharacter() {
+        const searchInput = document.getElementById("searchInput");
+        const searchTerm = searchInput.value.trim();
+        if (searchTerm.length === 1) {
+          const index = characters.findIndex(
+            (char) => char.character === searchTerm
+          );
+          if (index !== -1) {
+            if (currentIndex !== -1) {
+              previousCharacters.push(currentIndex);
+            }
+            currentIndex = index;
+            displayCharacter(currentIndex);
+            resetFlashcard();
+          } else {
+            alert("Character not found.");
+          }
+        } else {
+          alert("Please input a single character.");
+        }
+        searchInput.value = "";
+      }
+
       function updatePrevBtnVisibility() {
         const prevBtn = document.getElementById("prevBtn");
         if (previousItems.length === 0) {
